@@ -7,6 +7,6 @@ metadata:
 spec:
   containers:
     - name: flask-app
-      image: onurbolatogluu/flask-web-counter
+      image: onurbolatogluu/flask-web-counter:latest
       ports:
         - containerPort: 5000
